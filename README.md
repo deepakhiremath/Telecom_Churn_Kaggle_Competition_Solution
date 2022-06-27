@@ -21,6 +21,7 @@ The main goal of the case study is to build ML models to predict churn. The pred
 While applying PCA on Logistic Regression, Sensitivity has dropped by 3% when we tried with LR-PCA, so we are using the LR-RFE method to generate data it gave us better accuracy and Sensitivity(Accuracy:- 0.815460883857798, Sensitivity:- 0.9111229377328366)
 After all the model building and several submissions made in kaggle we have concluded that Random Forest classifier has given best results (Accuracy:- 0.9335383473396781, Sensitivity:- 0.9269824374667376, Specificity:- 0.9400454281337489) on test data. On unknown data , it has given 94% in kaggle.
 We are considering that these features are of high importance for telecom company to consider inorder to decrease the churn of customers:
+
 roam_ic_mou
 roam_og_mou
 loc_og_mou
