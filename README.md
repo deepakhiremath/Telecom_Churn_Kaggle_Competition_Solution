@@ -22,13 +22,13 @@ While applying PCA on Logistic Regression, Sensitivity has dropped by 3% when we
 After all the model building and several submissions made in kaggle we have concluded that Random Forest classifier has given best results (Accuracy:- 0.9335383473396781, Sensitivity:- 0.9269824374667376, Specificity:- 0.9400454281337489) on test data. On unknown data , it has given 94% in kaggle.
 We are considering that these features are of high importance for telecom company to consider inorder to decrease the churn of customers:
 
-roam_ic_mou
-roam_og_mou
-loc_og_mou
-total_og_mou
-loc_ic_t2t_mou
-loc_ic_t2m_mou
-loc_ic_mou
-total_ic_mou
-total_rech_amt
-max_rech_amt
+1. roam_ic_mou
+2. roam_og_mou
+3. loc_og_mou
+4. total_og_mou
+5. loc_ic_t2t_mou
+6. loc_ic_t2m_mou
+7. loc_ic_mou
+8. total_ic_mou
+9. total_rech_amt
+10.max_rech_amt
